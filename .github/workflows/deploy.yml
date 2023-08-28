@@ -24,6 +24,6 @@ jobs:
           application_name: udemy-docker-k8
           environment_name: Udemy-docker-k8-env
           existing_bucket_name: elasticbeanstalk-us-east-1-683711707674
-          region: eeu-central-1
+          region: us-east-1
           version_label: ${{ github.sha }}
           deployment_package: deploy.zip
